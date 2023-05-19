@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General CSS */
+#App, html{
+  font-family: 'Montserrat';
+  color: white;
+}
+
+#Main{
+  margin-top: 70px;
+}
+
+/* Header and Navbar CSS */
+.nav-header{
+  overflow: hidden;
+  background-color: #37306B;
+  padding: 25px;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.header-content{
+  color: white;
+  display: inline;
+}
+
+.links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Home Page */
+ 
+#home-sec{
+  background-color: #66347F;
+  padding:25px;
+}
+
+.Home{
+  height: 100px
+}
+
+
+
